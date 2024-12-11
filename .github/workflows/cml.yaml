@@ -33,4 +33,4 @@ jobs:
           echo "![Residuals](residual.png)" >> report.md
           
           # Create comment with Markdown report
-          cml comment create report.md --md
+          cml comment create report.md
