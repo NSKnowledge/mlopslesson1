@@ -29,8 +29,8 @@ jobs:
           cat metrics.txt >> report.md
 
           echo "## Data Viz" >> report.md
-          echo "![](feature_importance.png)" >> report.md
-          echo "![](residual.png)" >> report.md
+          echo "![Feature Importance](feature_importance.png)" >> report.md
+          echo "![Residuals](residual.png)" >> report.md
           
           # Create comment with Markdown report
           cml comment create report.md
