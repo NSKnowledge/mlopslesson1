@@ -30,7 +30,7 @@ jobs:
 
           echo "## Data Viz" >> report.md
           echo "![Feature Importance](feature_importance.png)" >> report.md
-          echo "![Residuals](residual.png)" >> report.md
+          echo "![Residuals](residuals.png)" >> report.md
           
           # Create comment with Markdown report
           cml comment create report.md
